@@ -1,0 +1,65 @@
+.file-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 50%;
+    height: 80px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.file-card-image {
+    flex: 0 0 auto;
+    margin-left: -15px;
+}
+
+.file-card-thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.file-card-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.file-card-date {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 12px;
+    color: #999;
+}
+
+.file-card-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    /* Выровнено по левому краю */
+}
+
+.file-card-bank-period {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    gap: 8px;
+    /* Отступ между названием банка и периодом */
+}
+
+.file-card-bank {
+    font-size: 14px;
+    color: #666;
+}
+
+.file-card-period {
+    font-size: 14px;
+    color: #888;
+}

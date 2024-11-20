@@ -1,0 +1,2 @@
+ReactJs + Vite для фронтенда
+EPPlus для работы с данными из excel файла .xlsx формата
